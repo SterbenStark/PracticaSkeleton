@@ -1,0 +1,98 @@
+#logotype {
+    bottom: 0;
+    height: 100%;
+    left: 25%;
+    overflow: visible;
+    right: 0;
+    top: 0;
+    width: 50%;
+    position: relative;}
+.section1{
+    flex-wrap: nowrap;
+    /* -webkit-box-pack: start; */
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 30%);color: #fff;-ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+#img1{
+    position: relative;
+    left: 35%;
+}
+#section #text{  
+    color: #fff;
+}
+
+img{max-width: 100%;}
+nav{line-height:48px;min-height:48px;min-width:100%;overflow-x:auto;white-space:nowrap}
+
+@media(max-width:768px){
+    nav{font-size:14px}
+}
+#download{
+    background-color: #64b9f1;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#4ca7e4),to(#328ecc));
+    background-image: -webkit-linear-gradient(top,#4ca7e4,#328ecc);
+    background-image: -o-linear-gradient(top,#4ca7e4,#328ecc);
+    background-image: linear-gradient(to bottom,#4ca7e4,#328ecc);
+    border-color: #337cac;
+    color: #fff;
+    height: 52px;
+    text-shadow: 0 1px rgb(0 0 0 / 30%);
+    position: relative;
+    top: -9px;
+}
+p.small-label {
+    font-size: 12px;
+    margin: 0;
+    opacity: .8;
+    padding: 0;
+    text-align: center;
+}
+
+.column {
+    width: 235px;
+}
+#payment-trust{
+
+    text-align: center;
+}
+
+p.small-label a{
+    
+    font-size: 12px;
+}
+
+.nav-content{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+html.ie-legacy .nav-content{min-width:430px}
+html.ie-legacy .nav-content>ul.right{float:right}
+nav ul{display:inline-block;list-style:none;margin:0;padding:0}
+nav ul:first-child{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto}
+nav li{display:inline-block}
+nav a,nav a:visited{color:inherit;display:inline-block;fill:inherit;margin:0;padding:0 12px}
+nav a:focus{color:#08c;fill:#08c;text-decoration:none}
+nav a:hover,
+nav a:visited:hover{opacity:.7}
+nav a[title=Facebook]:focus,nav a[title=Facebook]:hover{color:#19227e;fill:#19227e}nav a[title="Google+"]:focus,nav a[title="Google+"]:hover{color:#d50000;fill:#d50000}nav a[title=Medium]:focus,nav a[title=Medium]:hover{color:#00ab6b;fill:#00ab6b}nav a[title=Reddit]:focus,nav a[title=Reddit]:hover{color:#ff4500;fill:#ff4500}nav a[title=StackExchange]:focus,
+nav a[title=StackExchange]:hover{color:#0d93ff;fill:#0d93ff}nav a[title=Twitter]:focus,
+nav a[title=Twitter]:hover{color:#1da1f2;fill:#1da1f2}nav .logomark{line-height:14px;vertical-align:middle}
+nav .logomark .logomark-svg,
+nav .logomark:focus .logomark-svg{fill:inherit}@media only screen and (max-width:430px){html.ie-legacy
+     nav{overflow-x:scroll;white-space:nowrap}html.ie-legacy 
+.nav-content{overflow:visible;white-space:nowrap;width:430px}html.ie-legacy 
+.nav-content>.right{float:left}}
+
+
+
